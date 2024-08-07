@@ -1,0 +1,74 @@
+/* App.css */
+.search-bar {
+  display:flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+  border: 1px solid;
+  padding: 15px;
+  width: 80%;
+  margin-top: 20px;
+}
+
+.search-input {
+  display: flex;
+  flex-direction:column;
+  margin-right: 20px;
+}
+
+.search-buttons {
+  display: flex;
+  gap: 10px;
+  align-items:flex-end;
+}
+
+.list-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.list-table th,
+.list-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.list-table th {
+  background-color: #f2f2f2;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.card {
+  border: 1px solid #ddd;
+  padding: 20px;
+  width: 18%;
+  box-sizing: border-box;
+}
+
+.pagination {
+  margin: 20px 0;
+}
+
+.pagination button {
+  margin: 0 5px;
+  padding: 10px 15px;
+  border: 1px solid #007bff;
+  background-color: #fff;
+  color: #007bff;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.pagination button.active {
+  background-color: #007bff;
+  color: #fff;
+  font-weight: bold;
+}
+
